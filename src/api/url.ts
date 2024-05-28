@@ -1,0 +1,1 @@
+export const cryptoData = 'https://api.coincap.io/v2/assets'

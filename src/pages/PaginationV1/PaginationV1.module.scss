@@ -1,0 +1,17 @@
+
+
+
+
+.listNumbers {
+  display: flex;
+
+  .number {
+    padding: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+}
+
+.active {
+  background-color: rgb(253, 0, 0);
+}
