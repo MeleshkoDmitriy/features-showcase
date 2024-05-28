@@ -10,8 +10,8 @@
 - <b>SCSS:</b> Расширение возможностей CSS, позволяющее писать более структурированный и модульный код.
 
 ## Реализации:
-<ul>
-  <li>HOC<li>
-  <li>Pagination with React-Query<li>
-</ul>
+
+- HOC 
+- Pagination with React-Query
+
 
