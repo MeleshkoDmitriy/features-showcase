@@ -36,11 +36,11 @@ const PaginationV1:FC = () => {
   // list
   const lastCryptoIndex = itemsPerPage * currentPage;
   const firstCryptoIndex = lastCryptoIndex - itemsPerPage;
-  const currentCrypto = crypto.slice(firstCryptoIndex, lastCryptoIndex);
+  const currentCrypto = crypto?.slice(firstCryptoIndex, lastCryptoIndex);
 
   // pagination
   const pageCount = [];
-  for (let i = 0; i <= Math.ceil(crypto.length / itemsPerPage); i++) {
+  for (let i = 0; i <= Math.ceil(crypto?.length / itemsPerPage); i++) {
     pageCount.push(i + 1);
   }
 
