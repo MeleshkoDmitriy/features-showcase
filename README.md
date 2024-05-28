@@ -11,7 +11,9 @@
 
 ## Реализации:
 
-- HOC 
+- HOC Sidebar
+- Custom Hooks
 - Pagination with React-Query
+
 
 
