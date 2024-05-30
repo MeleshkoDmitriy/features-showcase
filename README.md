@@ -14,6 +14,7 @@
 - HOC Sidebar
 - Custom Hooks
 - Pagination with React-Query
+- Infinite Scroll with react-intersection-observer
 
 
 
