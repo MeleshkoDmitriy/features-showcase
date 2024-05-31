@@ -15,7 +15,7 @@
 - Custom Hooks
 - Pagination with React-Query
 - Infinite Scroll with react-intersection-observer
-- react-hook-form with RTK Query
+- RTK Query with react-hook-form
 
 
 
