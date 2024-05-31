@@ -1,16 +1,17 @@
 import { configureStore } from "@reduxjs/toolkit";
+import { formSlice } from "./slices/api/formSlice";
 
 
 
 export const store = configureStore({
-//   reducer: {
-//     categories: categoriesSlice,
-//     products: productsSlice,
-//     user: userSlice,
-//     [apiSlice.reducerPath]: apiSlice.reducer,
-// },
-// middleware: (getDefaultMiddleware) =>
-//     getDefaultMiddleware().concat(apiSlice.middleware),
+  reducer: {
+    // categories: categoriesSlice,
+    // products: productsSlice,
+    // user: userSlice,
+    [formSlice.reducerPath]: formSlice.reducer,
+},
+middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(formSlice.middleware),
 })
 
 export type RootState = ReturnType<typeof store.getState>;
